@@ -1,0 +1,85 @@
+# Author:  Bryan Nguyen
+# Date:    3/27/19
+# Section: 22
+# E-mail:  bryann1@umbc.edu
+# Description:
+#   This is a document that will show how my project will be organized
+#   depending on how I will approach this project. This contains the
+#   constants, functions/function headers, and some pseudocode to give me
+#   an idea of how my project will be composed once I start coding.
+
+# info for getting choice
+ANSWERS  = ["y", "yes", "n", "no"]
+CONTINUE = "Do you want to enter another word?"
+
+# info about characters
+OKINA       = "'"
+VOWELS      = ["a", "e", "i", "o", "u"]
+COMP_VOWELS = ["ai", "ae", "ao", "au", "ei", "eu", "iu", "oi", "ou", "ui"]
+
+# etc ... (more constants, to be added by you)
+
+
+###################################################
+# getChoice() prompts and reprompts the user until
+#             they select a valid choice
+# Parameters: question; a string to be asked
+#             options; a list of string options
+# Return:     choice; a string chosen by the user
+
+
+# etc ... (more function headers, to be added by you)
+
+###################################################
+# getHawaiianPhrase() asks user to input a Hawaiian phrase
+#                     and asks them again if the phrase isn't valid
+#                     while also explaining why it's invalid.
+# Parameters:         Function takes no input
+# Return:             It'll return a string of the user's phrase
+
+###################################################
+# pronounceW() this will either change the w to a v or leave it as is
+#              depending where the w is or whatever follows after it.
+#              if the w is at the start of a word or follows an o or u
+#              it'll be left as a w but if followed by a, e, i, it'll be a v.
+# Parameters:  word; the string that has the letter w in it
+#              index; the index where the w is located in the word
+# Return:      It'll reutrn a v or w depending on conditions
+
+###################################################
+# simpleVowel() this will determine how a vowel is pronounced
+#               depending on conditions
+# Parameters:   letter; a single letter
+# Return:       It returns a new version of the letter in
+#               Hawaiian pronounciation
+
+###################################################
+# complexVowel() this will deal with how a two letter vowel will be pronounced
+# Parameters:    vowels; a string that has two vowels together
+# Return:        It returns a new version of the vowels in
+#                Hawaiian pronounciation
+
+##################################################
+# pronounce() will take the entire phrase into account
+#             in translating it to Hawaiian pronounciation
+# Parameters:  phrase; the whole input that may be single/multiple words
+# Return:      It'll return the string translated to Hawaiian pronounciation
+
+##################################################
+# pronounceWord() takes care of a single word in translating it
+# Parameters:     word; a single word
+# Return:         It'll return the string with the Hawaiian pronounciation
+
+def main():
+
+    # while they don't want to quit
+
+        # get the phrase to pronounce
+        call getHawaiianPhrase()
+
+        # etc ... (more pseudocode, to be added by you)
+        # HINT: main really isn't very long
+
+        # print that the original phrase is pronounced to whatever pronounce()
+        # evaluates to
+
